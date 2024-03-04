@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Tea Flavors</title>
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding-top: 20px; /* Added padding to create space between header and content */
+        }
+        .flavor {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .flavor img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+		.back-button-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff; /* Button background color */
+            color: white; /* Button text color */
+        }
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8b4513; /* Button hover color */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+        .back-button:hover {
+            background-color: #663300; /* Button hover color */
+        }
+		a{
+			color: #fff;
+		}
+    </style>
+</head>
+<body>
+	<div class="back-button-container">
+        <a href="link.html" class="back-button">Back</a>
+    </div>
+    <h2 style="text-align: center;">Premium Flavors</h2>
+    <div class="container">
+        <div class="flavor">
+            <img src="blueberry.jpg" alt="Blueberry Milk Tea">
+            <h1>Blueberry</h1>
+            <p>Experience the tantalizing burst of flavor with our Blueberry Milk Tea - a sip of pure berry bliss.</p>
+        </div>
+        <div class="flavor">
+            <img src="mango chesscake.jpg" alt="Mango Cheesecake Milk Tea">
+            <h1>Mango Cheesecake</h1>
+            <p>Indulge in the tropical paradise of our Mango Cheesecake! A harmonious blend of creamy cheesecake and luscious mangoes, crafted to perfection by our expert pastry chefs. Treat yourself to a slice of heaven today!</p>
+        </div>
+        <div class="flavor">
+            <img src="strawberry.jpg" alt="Red Velvet Milk Tea">
+            <h1>Red Velvet</h1>
+            <p>Indulge in the refreshing delight of our Strawberry Milk Tea - a burst of fruity bliss in every sip!</p>
+        </div>
+        <div class="flavor">
+            <img src="mango.jpg" alt="Mango Graham Milk Tea">
+            <h1>Mango Graham</h1>
+            <p>Indulge in the luscious sweetness of our Mango Graham Milk Tea - a tropical escape in every sip!</p>
+        </div>
+		
+    </div>
+</body>
+</html>
